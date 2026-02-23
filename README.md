@@ -6,7 +6,7 @@ Built using **Python** and **Streamlit**, this project helps users understand th
 
 ---
 
-## 🚀 Project Overview
+ Project Overview
 
 The Smart Health Assistant analyzes user lifestyle inputs such as sleep, exercise, hydration, stress level, height, and weight to:
 
