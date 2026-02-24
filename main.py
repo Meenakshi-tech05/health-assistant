@@ -1,4 +1,3 @@
-# main.py
 
 from health_score import calculate_health_score
 from risk_predictor import predict_risks
@@ -16,7 +15,7 @@ def get_user_data():
     exercise = input("Exercise level (low/medium/high): ").lower()
     water = float(input("Water intake (litres/day): "))
     stress = input("Stress level (low/medium/high): ").lower()
-
+    
     user = {
         "name": name,
         "age": age,
@@ -46,7 +45,6 @@ def main():
     else:
         print("Risk Level: High ❌")
 
-    # NEW PART — Risk Prediction
     risks = predict_risks(user, bmi)
 
     print("\n--- Health Risks Detected ---")
